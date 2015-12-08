@@ -92,7 +92,7 @@ var CONTROLS = {
 };
 
 var P1n = {
-	a: 0.35, b: 0.45, m: 1, n1: 1, n2: 2, n3: -1.2
+	a: 0.35, b: 0.45, m: 1, n1: 1, n2: 1.5, n3: -1.2
 };
 
 var P2n = {
@@ -246,7 +246,6 @@ $(".dg").on("mousedown", function(e){
 	e.stopPropagation();
 });
 
-P1n.n2 = -1.68;
 window.setTimeout(function(){ 
 	render();  
 }, 0);
